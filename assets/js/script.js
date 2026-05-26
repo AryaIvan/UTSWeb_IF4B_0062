@@ -35,4 +35,53 @@ $(document).ready(function () {
     }, speed);
   });
 
+  const testimonials = [
+    {
+      text: "“Kaosnya nyaman banget dipakai, desainnya simple tapi punya makna.”",
+      name: "Raka Pratama",
+      role: "Customer"
+    },
+    {
+      text: "“Suka sama konsep brand-nya. Think.ing bukan cuma jual kaos, tapi juga punya pesan.”",
+      name: "Dimas Arya",
+      role: "Customer"
+    },
+    {
+      text: "“Bahannya adem, cocok buat kuliah, nongkrong, atau daily outfit.”",
+      name: "Fajar Ramadhan",
+      role: "Customer"
+    }
+  ];
+
+  let testimonialIndex = 0;
+
+  function showTestimonial(index) {
+    $("#testimonialText").fadeOut(200, function () {
+      $(this).text(testimonials[index].text).fadeIn(200);
+    });
+
+    $("#testimonialName").text(testimonials[index].name);
+    $("#testimonialRole").text(testimonials[index].role);
+  }
+
+  $("#nextTestimonial").on("click", function () {
+    testimonialIndex++;
+
+    if (testimonialIndex >= testimonials.length) {
+      testimonialIndex = 0;
+    }
+
+    showTestimonial(testimonialIndex);
+  });
+
+  $("#prevTestimonial").on("click", function () {
+    testimonialIndex--;
+
+    if (testimonialIndex < 0) {
+      testimonialIndex = testimonials.length - 1;
+    }
+
+    showTestimonial(testimonialIndex);
+  });
+
 });
