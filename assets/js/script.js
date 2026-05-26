@@ -128,4 +128,6 @@ $(document).ready(function () {
     $("#orderForm")[0].reset();
   });
 
+  console.log("Final testing completed - Think.ing website is ready.");
+
 });
