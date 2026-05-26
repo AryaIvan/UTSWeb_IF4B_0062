@@ -738,3 +738,119 @@ body {
   margin-bottom: 0;
   color: #cfcfcf;
 }
+
+body.dark-mode {
+  background-color: #111111;
+  color: #f5f5f5;
+}
+
+body.dark-mode .custom-navbar {
+  background-color: rgba(17, 17, 17, 0.95);
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar-toggler {
+  background-color: #ffffff;
+}
+
+body.dark-mode .section-label {
+  color: #bdbdbd;
+}
+
+body.dark-mode .section-desc,
+body.dark-mode .hero-desc,
+body.dark-mode .product-card p,
+body.dark-mode .why-card p,
+body.dark-mode .best-card p,
+body.dark-mode .testimonial-box span {
+  color: #cfcfcf;
+}
+
+body.dark-mode .about-section,
+body.dark-mode .collection-section,
+body.dark-mode .bestseller-section,
+body.dark-mode .founder-section {
+  background-color: #111111;
+}
+
+body.dark-mode .philosophy-section,
+body.dark-mode .why-section,
+body.dark-mode .testimonial-section,
+body.dark-mode .contact-section {
+  background-color: #171717;
+}
+
+body.dark-mode .hero-shirt-card,
+body.dark-mode .feature-box,
+body.dark-mode .product-card,
+body.dark-mode .why-card,
+body.dark-mode .best-card,
+body.dark-mode .testimonial-box,
+body.dark-mode .order-form,
+body.dark-mode .founder-points div {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body.dark-mode .about-card {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body.dark-mode .quote-box {
+  background-color: #2a254d;
+  color: #ffffff;
+}
+
+body.dark-mode .quote-box p {
+  color: #d4d4d4;
+}
+
+body.dark-mode .filter-btn {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+body.dark-mode .filter-btn.active,
+body.dark-mode .filter-btn:hover {
+  background-color: #7f6cff;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-primary-custom {
+  background-color: #ffffff;
+  color: #111111;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-primary-custom:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-outline-custom {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-outline-custom:hover {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #252525;
+  color: #ffffff;
+  border-color: #444444;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #bdbdbd;
+}

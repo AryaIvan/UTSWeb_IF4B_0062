@@ -1,5 +1,15 @@
 $(document).ready(function () {
 
+  $("#darkModeBtn").on("click", function () {
+    $("body").toggleClass("dark-mode");
+
+    if ($("body").hasClass("dark-mode")) {
+      $("#darkModeBtn").html('<i class="bi bi-sun"></i>');
+    } else {
+      $("#darkModeBtn").html('<i class="bi bi-moon-stars"></i>');
+    }
+  });
+
   $(".filter-btn").on("click", function () {
     $(".filter-btn").removeClass("active");
     $(this).addClass("active");
