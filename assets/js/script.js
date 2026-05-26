@@ -84,4 +84,38 @@ $(document).ready(function () {
     showTestimonial(testimonialIndex);
   });
 
+  $("#orderForm").on("submit", function (e) {
+    e.preventDefault();
+
+    const nama = $("#nama").val().trim();
+    const whatsapp = $("#whatsapp").val().trim();
+    const produk = $("#produk").val();
+    const ukuran = $("#ukuran").val();
+    const pesan = $("#pesan").val().trim();
+
+    if (nama === "" || whatsapp === "" || produk === "" || ukuran === "") {
+      $("#formAlert")
+        .removeClass("text-success")
+        .addClass("text-danger")
+        .text("Mohon lengkapi nama, nomor WhatsApp, produk, dan ukuran terlebih dahulu.");
+
+      return;
+    }
+
+    $("#formAlert")
+      .removeClass("text-danger")
+      .addClass("text-success")
+      .text("Pesanan berhasil dibuat! Tim Think.ing akan segera menghubungi kamu.");
+
+    console.log({
+      nama: nama,
+      whatsapp: whatsapp,
+      produk: produk,
+      ukuran: ukuran,
+      pesan: pesan
+    });
+
+    $("#orderForm")[0].reset();
+  });
+
 });
