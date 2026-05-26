@@ -450,3 +450,51 @@ body {
   line-height: 1.7;
   margin-bottom: 0;
 }
+
+.bestseller-section {
+  background-color: var(--cream);
+}
+
+.best-card {
+  background-color: var(--white);
+  border-radius: 30px;
+  padding: 35px;
+  height: 100%;
+  transition: 0.3s ease;
+  border-bottom: 6px solid var(--soft-purple);
+}
+
+.best-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+}
+
+.best-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.best-icon i {
+  font-size: 34px;
+  color: var(--black);
+}
+
+.best-card h4 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.best-card p {
+  color: var(--gray);
+  line-height: 1.7;
+}
+
+.best-card span {
+  font-weight: 800;
+  font-size: 20px;
+}
