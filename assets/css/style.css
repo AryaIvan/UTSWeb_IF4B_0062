@@ -78,3 +78,123 @@ body {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
+.section-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--gray);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.hero-section {
+  padding-top: 80px;
+}
+
+.hero-section h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 25px;
+  letter-spacing: -3px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: var(--gray);
+  max-width: 540px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.btn-primary-custom {
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 40px;
+  padding: 14px 30px;
+  font-weight: 600;
+  border: 2px solid var(--black);
+  transition: 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 2px solid var(--black);
+}
+
+.btn-outline-custom {
+  border: 2px solid var(--black);
+  border-radius: 40px;
+  padding: 14px 30px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: var(--black);
+  transition: 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.hero-image-box {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 40px;
+  width: 230px;
+  height: 320px;
+}
+
+.shape-purple {
+  background-color: var(--soft-purple);
+  transform: rotate(-10deg);
+  left: 70px;
+}
+
+.shape-green {
+  background-color: var(--soft-green);
+  transform: rotate(10deg);
+  right: 80px;
+}
+
+.hero-shirt-card {
+  position: relative;
+  z-index: 2;
+  background-color: var(--white);
+  width: 330px;
+  min-height: 390px;
+  border-radius: 35px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.hero-shirt-card h4 {
+  font-weight: 800;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.hero-shirt-card h4 span {
+  color: #7f6cff;
+}
+
+.hero-shirt-card p {
+  color: var(--gray);
+  margin-bottom: 0;
+}
+
+.shirt-mockup {
+  margin-top: 50px;
+  font-size: 130px;
+  color: var(--black);
+}
