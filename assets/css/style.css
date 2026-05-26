@@ -1,1 +1,80 @@
-/* Custom CSS Think.ing */
+:root {
+  --cream: #f4f1e8;
+  --black: #111111;
+  --dark-gray: #2b2b2b;
+  --gray: #777777;
+  --white: #ffffff;
+  --soft-purple: #c9c2ff;
+  --soft-green: #c8f7d4;
+  --soft-pink: #ffcbd6;
+  --soft-yellow: #ffe3a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  color: var(--black);
+}
+
+.custom-navbar {
+  background-color: rgba(244, 241, 232, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 18px 0;
+  transition: 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 26px;
+  color: var(--black);
+  letter-spacing: -1px;
+}
+
+.navbar-brand span {
+  color: #7f6cff;
+}
+
+.nav-link {
+  color: var(--black);
+  font-weight: 500;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #7f6cff;
+}
+
+.btn-dark-mode {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-dark-mode:hover {
+  background-color: #7f6cff;
+  color: var(--white);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
