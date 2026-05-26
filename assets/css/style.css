@@ -416,3 +416,37 @@ body {
 .filter-btn i {
   margin-right: 6px;
 }
+
+.why-section {
+  background-color: var(--white);
+}
+
+.why-card {
+  background-color: var(--cream);
+  border-radius: 28px;
+  padding: 30px;
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.why-card i {
+  font-size: 30px;
+  color: #7f6cff;
+}
+
+.why-card h5 {
+  font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.why-card p {
+  color: var(--gray);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
