@@ -498,3 +498,25 @@ body {
   font-weight: 800;
   font-size: 20px;
 }
+
+.counter-section {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 75px 0;
+}
+
+.counter-box {
+  padding: 20px;
+}
+
+.counter-box h2 {
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.counter-box p {
+  color: #d4d4d4;
+  margin-bottom: 0;
+  font-weight: 500;
+}
