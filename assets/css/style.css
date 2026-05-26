@@ -854,3 +854,206 @@ body.dark-mode .form-select {
 body.dark-mode .form-control::placeholder {
   color: #bdbdbd;
 }
+
+@media (max-width: 991px) {
+  .hero-section {
+    padding-top: 120px;
+  }
+
+  .hero-section h1 {
+    font-size: 52px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .hero-desc,
+  .section-desc {
+    font-size: 16px;
+  }
+
+  .hero-image-box {
+    height: 420px;
+    margin-top: 40px;
+  }
+
+  .shape {
+    width: 190px;
+    height: 280px;
+  }
+
+  .shape-purple {
+    left: 80px;
+  }
+
+  .shape-green {
+    right: 80px;
+  }
+
+  .hero-shirt-card {
+    width: 300px;
+    min-height: 360px;
+  }
+
+  .shirt-mockup {
+    font-size: 110px;
+  }
+
+  .about-card {
+    min-height: auto;
+  }
+
+  .founder-image {
+    height: 360px;
+  }
+
+  .founder-image h3 {
+    font-size: 42px;
+  }
+
+  .navbar-nav {
+    padding-top: 20px;
+  }
+
+  .nav-link {
+    margin: 6px 0;
+  }
+
+  .btn-dark-mode {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 46px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .btn-outline-custom {
+    margin-left: 0;
+  }
+
+  .testimonial-box {
+    padding: 35px 25px;
+  }
+
+  .testimonial-box p {
+    font-size: 20px;
+  }
+
+  .counter-box h2 {
+    font-size: 42px;
+  }
+
+  .quote-box {
+    padding: 35px;
+  }
+
+  .quote-box h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding-top: 110px;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .section-label {
+    font-size: 11px;
+  }
+
+  .hero-image-box {
+    height: 360px;
+  }
+
+  .hero-shirt-card {
+    width: 270px;
+    min-height: 330px;
+    padding: 28px;
+  }
+
+  .hero-shirt-card h4 {
+    font-size: 28px;
+  }
+
+  .shirt-mockup {
+    font-size: 90px;
+  }
+
+  .shape {
+    width: 160px;
+    height: 240px;
+  }
+
+  .shape-purple {
+    left: 20px;
+  }
+
+  .shape-green {
+    right: 20px;
+  }
+
+  .about-card,
+  .quote-box,
+  .order-form,
+  .best-card,
+  .product-card,
+  .why-card {
+    border-radius: 24px;
+  }
+
+  .about-card {
+    padding: 32px;
+  }
+
+  .feature-box {
+    padding: 20px;
+  }
+
+  .founder-image {
+    height: 320px;
+    border-radius: 30px;
+  }
+
+  .founder-image h3 {
+    font-size: 36px;
+  }
+
+  .founder-points {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    padding: 55px 0 25px;
+  }
+
+  .footer-section h3 {
+    font-size: 30px;
+  }
+}
