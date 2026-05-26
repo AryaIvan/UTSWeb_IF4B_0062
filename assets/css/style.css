@@ -412,3 +412,7 @@ body {
   background-color: #7f6cff;
   color: var(--white);
 }
+
+.filter-btn i {
+  margin-right: 6px;
+}
